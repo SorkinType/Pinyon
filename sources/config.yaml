@@ -1,7 +1,5 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - Pinyon Script.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+familyName: Pinyon Script
