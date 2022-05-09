@@ -42,10 +42,10 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* underscore
+	* uni00AD
 	* lslash
-	* .notdef
-	* Ccedilla
-	* underscore and uni00AD
+	* .notdef and Ccedilla
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -67,9 +67,9 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- IJ_acutecomb
-	- NULL 
-	- And ij_acutecomb
+	- NULL
+	- ij_acutecomb 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
