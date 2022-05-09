@@ -2,7 +2,8 @@
 .appVersion = "1361";
 DisplayStrings = (
 "__Letter:\012HHOHAcnnoi\012HHOHÆcnnoi\012HHOHBcnnoi\012HHOHCcnnoi\012HHOHÇcnnoi\012HHOHDcnnoi\012HHOH/DZ cnnoi\012HHOH/Dafrican cnnoi\012HHOH/Dz cnnoi\012HHOH/Dzcaron cnnoi\012HHOHEcnnoi\012HHOHFcnnoi\012HHOHGcnnoi\012HHOHHcnnoi\012HHOH/IJ cnnoi\012HHOHJcnnoi\012HHOHKcnnoi\012HHOHLcnnoi\012HHOH/Lj cnnoi\012HHOHMcnnoi\012HHOH/Eng cnnoi\012HHOHOcnnoi\012HHOH/OE cnnoi\012HHOHPcnnoi\012HHOHÞcnnoi\012HHOHRcnnoi\012HHOHScnnoi\012HHOH/Saltillo cnnoi\012HHOH/Germandbls cnnoi\012HHOHTcnnoi\012HHOHUcnnoi\012HHOHVcnnoi\012HHOH/Vturned cnnoi\012HHOHWcnnoi\012HHOHXcnnoi\012HHOHYcnnoi\012HHOHZcnnoi\012HHOHcacnnoi\012HHOHcæcnnoi\012HHOHcbcnnoi\012HHOHcccnnoi\012HHOHcdcnnoi\012HHOHcðcnnoi\012HHOHc/dz cnnoi\012HHOHc/dzcaron cnnoi\012HHOHcecnnoi\012HHOHc/schwa cnnoi\012HHOHcfcnnoi\012HHOHcgcnnoi\012HHOHchcnnoi\012HHOHcicnnoi\012HHOHc/idotless cnnoi\012HHOHc/ij_acutecomb cnnoi\012HHOHcjcnnoi\012HHOHc/jdotless cnnoi\012HHOHckcnnoi\012HHOHclcnnoi\012HHOHc/lj cnnoi\012HHOHc/lslash cnnoi\012HHOHcmcnnoi\012HHOHc/eng cnnoi\012HHOHcocnnoi\012HHOHcpcnnoi\012HHOHcqcnnoi\012HHOHcrcnnoi\012HHOHcscnnoi\012HHOHc/saltillo cnnoi\012HHOHcßcnnoi\012HHOHc/longs cnnoi\012HHOHctcnnoi\012HHOHcucnnoi\012HHOHcvcnnoi\012HHOHc/vturned cnnoi\012HHOHcwcnnoi\012HHOHcxcnnoi\012HHOHcycnnoi\012HHOHczcnnoi",
-"/Schwa"
+"/Schwa",
+n
 );
 classes = (
 {
@@ -81,16 +82,20 @@ value = (
 {
 Name = Weight;
 Tag = wght;
-},
-{
-Name = Italic;
-Tag = ital;
 }
 );
 },
 {
 name = "Variable Font Origin";
 value = master01;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+400 = 128;
+};
+};
 },
 {
 name = "Use Extension Kerning";
@@ -107,17 +112,6 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
-},
-{
-name = "Axis Mappings";
-value = {
-ital = {
-100 = 100;
-};
-wght = {
-400 = 128;
-};
-};
 }
 );
 date = "2022-05-08 19:24:43 +0000";
