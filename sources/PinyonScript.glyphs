@@ -81,6 +81,10 @@ value = (
 {
 Name = Weight;
 Tag = wght;
+},
+{
+Name = Italic;
+Tag = ital;
 }
 );
 },
