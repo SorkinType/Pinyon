@@ -2,18 +2,7 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[19] PinyonScript-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x2044 (FRACTION SLASH)
-
-	- 0x2074 (SUPERSCRIPT FOUR)
- 
-	- And 0x2212 (MINUS SIGN)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[16] PinyonScript-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2010 by Sorkin Type Co, with Reserved Font Name Pinyon. Licenced under the SIL Open Font License, Version 1.1, available with a FAQ at
@@ -29,10 +18,6 @@ But instead we have got:
 "Copyright (c) 2021 by Sorkin Type Co with Reserved Font Name Pinyon Script.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL" [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-normal]
 </div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
 
 
@@ -43,15 +28,6 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1. Thi
 
 * 🔥 **FAIL** Name table entry ("Copyright (c) 2010 by Sorkin Type Co, with Reserved Font Name Pinyon. Licenced under the SIL Open Font License, Version 1.1, available with a FAQ at
 http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2207, but got 1768 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 963, but got 787 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 703 font units wide, non-breaking space named (uni00A0) is 725 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
@@ -66,10 +42,10 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni00AD
 	* lslash
 	* .notdef
-	* underscore and Ccedilla
+	* Ccedilla
+	* underscore and uni00AD
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -91,8 +67,8 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- NULL
-	- IJ_acutecomb 
+	- IJ_acutecomb
+	- NULL 
 	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
@@ -146,13 +122,18 @@ Use -F or --full-lists to disable shortening of long lists.
 	* Hcircumflex (U+0124): B<<1073.0,843.5>-<1179.0,965.0>-<1241.0,1029.0>>/B<<1241.0,1029.0>-<1141.0,967.0>-<1073.5,943.5>> = 14.110467624904652 and 127 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * underscore (U+005F): L<<-250.0,-105.0>--<628.0,-106.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 11 | 105 | 7 | 94 | 0 |
-| 0% | 4% | 5% | 47% | 3% | 42% | 0% |
+| 0 | 4 | 12 | 104 | 7 | 98 | 0 |
+| 0% | 2% | 5% | 46% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
