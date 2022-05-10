@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSorkinType%2FPinyon%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FSorkinType%2FPinyon%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Pinyon Script is a romantic English round hand script font. It also sports swashes which are confident and showy somehow giving the type a feeling suggestive of the American west. Perhaps this is why, despite refinement and aristocratic style; Pinyon Script manages to feel so friendly. Nicole Script uses a high stroke contrast and is very slanted making it most suitable for use at larger sizes.
+Pinyon Script is a romantic English round hand script font. Pinyon Script uses a high stroke contrast and is very slanted making it most suitable for use at in large optical size typography.
 
 
 ![Sample Image](documentation/image1.png)
@@ -45,13 +45,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
+**10 May 2022. Version 1.007**
 - MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+- SIGNIFICANT Support for many new langiuages.
+- to do: Add kerning
 
 ## License
 
