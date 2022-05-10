@@ -2,38 +2,26 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[16] PinyonScript-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[13] PinyonScript-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2010 by Sorkin Type Co, with Reserved Font Name Pinyon. Licenced under the SIL Open Font License, Version 1.1, available with a FAQ at
-https://scripts.sil.org/OFL" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright 2019 The Pinyon Script Project Authors https://github.com/SorkinType/Pinyon 
+  " Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
-"Copyright (c) 2021 by Sorkin Type Co with Reserved Font Name Pinyon Script.
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL" [code: bad-notice-format]
+"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
 
 
-* 🔥 **FAIL** Name entry COPYRIGHT_NOTICE on platform WINDOWS contains a line-break. [code: line-break]
 * 🔥 **FAIL** Name entry LICENSE_DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Name table strings must not contain the string 'Reserved Font Name'. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/rfn">com.google.fonts/check/name/rfn</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Name table records must not have trailing spaces. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces">com.google.fonts/check/name/trailing_spaces</a>)</summary><div>
 
 
-* 🔥 **FAIL** Name table entry ("Copyright (c) 2010 by Sorkin Type Co, with Reserved Font Name Pinyon. Licenced under the SIL Open Font License, Version 1.1, available with a FAQ at
-http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error except in a few specific rare cases. [code: rfn]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* 🔥 **FAIL** Name table record with key = (3, 1, 1033, 13) has trailing spaces that must be removed: 'Copyright [...]Pinyon 
+  ' [code: trailing-space]
 </div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -42,14 +30,10 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* underscore
-	* uni00AD
-	* lslash
-	* .notdef and Ccedilla
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+	* Z
+	* Ccedilla
+	* .notdef
+	* underscore and lslash
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -68,8 +52,6 @@ http://scripts.sil.org/OFL") contains "Reserved Font Name". This is an error exc
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- NULL
-	- ij_acutecomb 
-	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -101,7 +83,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* uni00B5 (U+00B5): L<<769.0,390.0>--<800.0,428.0>> -> L<<800.0,428.0>--<808.0,438.0>>
 	* w (U+0077): L<<535.0,401.0>--<558.0,429.0>> -> L<<558.0,429.0>--<562.0,434.0>>
 	* wacute (U+1E83): L<<535.0,401.0>--<558.0,429.0>> -> L<<558.0,429.0>--<562.0,434.0>>
 	* wcircumflex (U+0175): L<<535.0,401.0>--<558.0,429.0>> -> L<<558.0,429.0>--<562.0,434.0>>
@@ -119,21 +100,16 @@ Use -F or --full-lists to disable shortening of long lists.
 	* Gdotaccent (U+0120): B<<930.5,597.5>-<998.0,676.0>-<1053.0,736.0>>/B<<1053.0,736.0>-<890.0,621.0>-<779.5,575.0>> = 12.285762839473662
 	* H (U+0048): B<<1073.0,843.5>-<1179.0,965.0>-<1241.0,1029.0>>/B<<1241.0,1029.0>-<1141.0,967.0>-<1073.5,943.5>> = 14.110467624904652
 	* Hbar (U+0126): B<<1149.5,937.0>-<1200.0,987.0>-<1241.0,1029.0>>/B<<1241.0,1029.0>-<1141.0,967.0>-<1073.5,943.5>> = 13.891364373570608
-	* Hcircumflex (U+0124): B<<1073.0,843.5>-<1179.0,965.0>-<1241.0,1029.0>>/B<<1241.0,1029.0>-<1141.0,967.0>-<1073.5,943.5>> = 14.110467624904652 and 127 more.
+	* Hcircumflex (U+0124): B<<1073.0,843.5>-<1179.0,965.0>-<1241.0,1029.0>>/B<<1241.0,1029.0>-<1141.0,967.0>-<1073.5,943.5>> = 14.110467624904652 and 128 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * underscore (U+005F): L<<-250.0,-105.0>--<628.0,-106.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 12 | 104 | 7 | 98 | 0 |
-| 0% | 2% | 5% | 46% | 3% | 44% | 0% |
+| 0 | 4 | 9 | 105 | 7 | 100 | 0 |
+| 0% | 2% | 4% | 47% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
