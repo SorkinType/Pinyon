@@ -15,7 +15,14 @@ Z,
 "/lacute",
 e,
 d,
-X
+X,
+w,
+g,
+"/gravecomb.case/circumflexcomb_gravecomb.case/Acircumflexgrave",
+"/brevecomb_hookabovecomb.case/Abrevehookabove",
+"/DZ",
+"/DZcaron",
+"/Dz"
 );
 classes = (
 {
@@ -24,15 +31,15 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+copyright = "Copyright 2019 Pinyon Script Project Authors https://github.com/SorkinType/Pinyon";
 customParameters = (
 {
 name = description;
-value = "Pinyon Script is a romantic round hand script style font. It also sports swashes which are confident and showy somehow giving the type a feeling suggestive of the American west. Perhaps this is why, despite refinement and aristocratic style; Pinyon Script manages to feel so friendly . Nicole Script uses a high stroke contrast and is very slanted making it most suitable for use at larger sizes.";
+value = "Pinyon Script is a Engish Roundhand connected script font";
 },
 {
 name = license;
-value = "Copyright 2019 The Pinyon Script Project Authors https://github.com/SorkinType/Pinyon \012  ";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
@@ -124,8 +131,8 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2022-05-08 19:24:43 +0000";
-designer = "Nicole Fally";
+date = "2022-05-10 04:29:33 +0000";
+designer = "Nicole Fally, Eben Sorkin";
 designerURL = sorkintype.com;
 familyName = "Pinyon Script";
 featurePrefixes = (
@@ -2247,7 +2254,7 @@ unicode = 0044;
 },
 {
 glyphname = DZ;
-lastChange = "2022-05-09 05:12:18 +0000";
+lastChange = "2022-05-10 04:36:10 +0000";
 layers = (
 {
 components = (
@@ -2255,21 +2262,24 @@ components = (
 name = D;
 },
 {
+alignment = -1;
 name = Z;
-transform = "{1, 0, 0, 1, 1623, 0}";
+transform = "{1, 0, 0, 1, 1506, 0}";
 }
 );
 layerId = master01;
-width = 3179;
+width = 3062;
 }
 );
 leftKerningGroup = D;
+leftMetricsKey = D;
 rightKerningGroup = Z;
+rightMetricsKey = Z;
 unicode = 01F1;
 },
 {
 glyphname = DZcaron;
-lastChange = "2022-05-09 05:12:18 +0000";
+lastChange = "2022-05-10 04:36:26 +0000";
 layers = (
 {
 components = (
@@ -2277,20 +2287,23 @@ components = (
 name = D;
 },
 {
+alignment = -1;
 name = Z;
-transform = "{1, 0, 0, 1, 1623, 0}";
+transform = "{1, 0, 0, 1, 1505, 0}";
 },
 {
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 2421, 0}";
+transform = "{1, 0, 0, 1, 2303, 0}";
 }
 );
 layerId = master01;
-width = 3179;
+width = 3061;
 }
 );
 leftKerningGroup = D;
+leftMetricsKey = D;
 rightKerningGroup = Z;
+rightMetricsKey = Z;
 unicode = 01C4;
 },
 {
@@ -14392,7 +14405,7 @@ unicode = 1E1F;
 },
 {
 glyphname = g;
-lastChange = "2022-05-09 04:52:05 +0000";
+lastChange = "2022-05-10 04:33:44 +0000";
 layers = (
 {
 anchors = (
@@ -14441,10 +14454,10 @@ nodes = (
 "594 685 CURVE SMOOTH",
 "468 685 OFFCURVE",
 "297 632 OFFCURVE",
-"126 423 CURVE",
+"126 423 CURVE SMOOTH",
 "41 323 OFFCURVE",
 "7 218 OFFCURVE",
-"7 129 CURVE",
+"7 129 CURVE SMOOTH",
 "9 47 OFFCURVE",
 "48 -2 OFFCURVE",
 "132 -2 CURVE SMOOTH {name = hr00;}",
@@ -14457,7 +14470,7 @@ nodes = (
 "139 -233 CURVE",
 "-427 -473 OFFCURVE",
 "-574 -609 OFFCURVE",
-"-570 -720 CURVE",
+"-570 -720 CURVE SMOOTH",
 "-570 -751 OFFCURVE",
 "-527 -787 OFFCURVE",
 "-471 -787 CURVE SMOOTH"
@@ -14482,7 +14495,7 @@ closed = 1;
 nodes = (
 "106 28 OFFCURVE",
 "92 42 OFFCURVE",
-"90 80 CURVE",
+"90 80 CURVE SMOOTH",
 "89 144 OFFCURVE",
 "133 234 OFFCURVE",
 "231 356 CURVE SMOOTH",
@@ -20578,7 +20591,7 @@ unicode = 028C;
 },
 {
 glyphname = w;
-lastChange = "2022-05-09 04:52:05 +0000";
+lastChange = "2022-05-10 04:32:02 +0000";
 layers = (
 {
 anchors = (
@@ -20657,12 +20670,9 @@ nodes = (
 "847 673 OFFCURVE",
 "839 675 OFFCURVE",
 "797 679 CURVE",
-"700 586 OFFCURVE",
-"623 505 OFFCURVE",
-"562 433 CURVE",
-"562 434 LINE",
-"558 429 LINE",
-"535 401 LINE",
+"688 570 OFFCURVE",
+"631 513 OFFCURVE",
+"535 401 CURVE",
 "473 330 OFFCURVE",
 "387 250 OFFCURVE",
 "298 185 CURVE",
@@ -33681,7 +33691,7 @@ rightKerningGroup = brevecomb.case;
 },
 {
 glyphname = brevecomb_hookabovecomb.case;
-lastChange = "2022-05-09 04:52:05 +0000";
+lastChange = "2022-05-10 04:35:44 +0000";
 layers = (
 {
 components = (
@@ -33689,8 +33699,9 @@ components = (
 name = brevecomb.case;
 },
 {
+alignment = -1;
 name = hookabovecomb.case;
-transform = "{1, 0, 0, 1, 119, 263}";
+transform = "{1, 0, 0, 1, 37, 213}";
 }
 );
 layerId = master01;
@@ -33745,7 +33756,7 @@ rightKerningGroup = circumflexcomb.case;
 },
 {
 glyphname = circumflexcomb_gravecomb.case;
-lastChange = "2022-05-10 04:03:31 +0000";
+lastChange = "2022-05-10 04:35:16 +0000";
 layers = (
 {
 components = (
@@ -33755,7 +33766,7 @@ name = circumflexcomb.case;
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 599, 58}";
+transform = "{1, 0, 0, 1, 599, 10}";
 }
 );
 layerId = master01;
