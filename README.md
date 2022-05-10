@@ -21,7 +21,7 @@ Pinyon Script is a romantic English round hand script font. It also sports swash
 
 Nicole Fally / typeface + graphic design‹ is a design studio specialized in typeface design. Nicole Fally studied Communication Design in Vienna, Austria, at ›Die Graphische‹ and Typeface Design at the University of Reading, UK. The studio was founded in 2004 and is now based in Bielefeld and Vienna.
 
-Eben Sorkin designs and art directs typefaces. 
+Eben Sorkin designs and art directs typefaces. He works with Sorkin Type Co. and Darden Studio
 
 ## Languages
 
