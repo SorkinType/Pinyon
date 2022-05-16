@@ -73,19 +73,19 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>0</td>
+                <td>1</td>
                 <td>7</td>
                 <td>104</td>
                 <td>7</td>
-                <td>107</td>
+                <td>106</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>0%</td>
+                <td>1%</td>
                 <td>4%</td>
                 <td>60%</td>
                 <td>4%</td>
-                <td>62%</td>
+                <td>61%</td>
             </tr>
             </table>
             
@@ -95,10 +95,11 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/PinyonScript-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* Ccedilla
 * Z
 * lslash
-* .notdef and underscore</p>
+* underscore
+* Ccedilla
+* question and .notdef</p>
 </span></li></ul></div></details>
 <h3>Is there kerning info for non-ligated sequences?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
@@ -148,6 +149,12 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/PinyonScript-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.hmtx&gt; 🔥</h2>
+<h3>Space and non-breaking space have the same width?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_widths&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/PinyonScript-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 403 font units wide, non-breaking space named (uni00A0) is 703 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+</span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
 <h3>Do outlines contain any jaggy segments?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
@@ -162,7 +169,7 @@
 * Gdotaccent (U+0120): B&lt;&lt;930.5,597.5&gt;-&lt;998.0,676.0&gt;-&lt;1053.0,736.0&gt;&gt;/B&lt;&lt;1053.0,736.0&gt;-&lt;890.0,621.0&gt;-&lt;779.5,575.0&gt;&gt; = 12.285762839473662
 * H (U+0048): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652
 * Hbar (U+0126): B&lt;&lt;1149.5,937.0&gt;-&lt;1200.0,987.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 13.891364373570608
-* Hcircumflex (U+0124): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652 and 128 more.</p>
+* Hcircumflex (U+0124): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652 and 132 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
 </span></li></ul></div></details>
                     </body>
