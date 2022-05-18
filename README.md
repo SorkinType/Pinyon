@@ -48,7 +48,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 **17 May 2022. Version 1.007**
 - MAJOR Font turned to a variable font.
 - SIGNIFICANT Support for many new languages.
-- SIGNIFICANT much improved spacing and kerning.
+- SIGNIFICANT Much improved spacing and kerning.
+- SIGNIFICANT Now has old style and lining numbers to go with the orginal mixed historical style figures.
 
 ## License
 
