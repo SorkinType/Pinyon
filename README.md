@@ -45,10 +45,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-**10 May 2022. Version 1.007**
+**17 May 2022. Version 1.007**
 - MAJOR Font turned to a variable font.
-- SIGNIFICANT Support for many new langiuages.
-- to do: Add kerning
+- SIGNIFICANT Support for many new languages.
+- SIGNIFICANT much improved spacing and kerning.
 
 ## License
 
