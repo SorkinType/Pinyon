@@ -6,12 +6,12 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* .notdef
 	* Ccedilla
-	* Z
-	* lslash
 	* question
-	* underscore
-	* germandbls and .notdef
+	* germandbls
+	* Z
+	* lslash and underscore
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
