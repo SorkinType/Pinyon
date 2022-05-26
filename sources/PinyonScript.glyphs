@@ -15017,7 +15017,7 @@ unicode = 1E25;
 },
 {
 glyphname = i;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:56:19 +0000";
 layers = (
 {
 anchors = (
@@ -15063,7 +15063,7 @@ closed = 1;
 nodes = (
 "616 876 OFFCURVE",
 "667 920 OFFCURVE",
-"667 969 CURVE SMOOTH",
+"667 969 CURVE SMOOTH {name = hr02;}",
 "667 1004 OFFCURVE",
 "643 1032 OFFCURVE",
 "606 1032 CURVE SMOOTH",
