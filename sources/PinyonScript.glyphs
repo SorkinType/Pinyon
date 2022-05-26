@@ -1,8 +1,5 @@
 {
-.appVersion = "1361";
-DisplayStrings = (
-"/quoteleft ./quoteright/space/quoteleft ,/quoteright/space/quoteleft :/quoteright/space/quoteleft !/quoteright/space/quoteleft ?/quoteright/space/quoteleft {}/quoteright/space/quoteleft []/quoteright/space/quoteleft ()/quoteright/space/quoteleft ª/quoteright/space/quoteleft º/quoteright/space/quoteleft &/quoteright/space/quoteleft $/quoteright/quoteleft #/quoteright/quoteleft @/quoteright \012'.'/space ','/space ':'/space '!'/space '?'/space '{}'/space '[]'/space '()'/space 'ª'/space 'º'/space '&'/space '$''#''@'\012.,/space ...!/space/space no.*/space ?*/space !*"
-);
+.appVersion = "3108";
 classes = (
 {
 automatic = 1;
@@ -12,18 +9,6 @@ name = Uppercase;
 );
 copyright = "Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Pinyon)";
 customParameters = (
-{
-name = description;
-value = "Pinyon Script is a Engish Roundhand connected script font";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
 {
 name = openTypeOS2Panose;
 value = (
@@ -53,10 +38,6 @@ value = (
 );
 },
 {
-name = vendorID;
-value = STC;
-},
-{
 name = blueFuzz;
 value = 1;
 },
@@ -67,31 +48,6 @@ value = 0.03963;
 {
 name = blueShift;
 value = 7;
-},
-{
-name = trademark;
-value = "Pinyon Scrpt is a trademark of Sorkin Type Co.";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-},
-{
-name = "Variable Font Origin";
-value = master01;
-},
-{
-name = "Axis Mappings";
-value = {
-wght = {
-400 = 128;
-};
-};
 },
 {
 name = "Use Extension Kerning";
@@ -106,13 +62,29 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Enforce Compatibility Check";
-value = 1;
+name = description;
+value = "Pinyon Script is a Engish Roundhand connected script font";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = STC;
+},
+{
+name = trademark;
+value = "Pinyon Scrpt is a trademark of Sorkin Type Co.";
 }
 );
 date = "2022-05-10 04:29:33 +0000";
 designer = "Nicole Fally, Eben Sorkin";
-designerURL = sorkintype.com;
+designerURL = "http://sorkintype.com";
 familyName = "Pinyon Script";
 featurePrefixes = (
 {
@@ -143,6 +115,7 @@ feature ordn;
 feature lnum;
 feature onum;
 feature case;
+feature calt;
 ";
 name = aalt;
 },
@@ -173,27 +146,33 @@ lookup ccmp_Other_3 {
 } ccmp_Other_3;
 
 lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub lj by l j;
+	sub Lj by L j;
+	sub LJ by L J;
+	sub nj by n j;
+	sub Nj by N j;
+	sub NJ by N J;
+	sub dzcaron by d zcaron;
+	sub Dzcaron by D zcaron;
+	sub DZcaron by D Zcaron;
+} ccmp_latn_1;
+
+lookup ccmp_latn_2 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
-	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
-	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;
 	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
-	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;
 	sub brevecomb tildecomb by brevecomb_tildecomb;
-	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;
 	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
-	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
-} ccmp_latn_1;
+} ccmp_latn_2;
 
 script latn;
 lookup ccmp_latn_1;
+lookup ccmp_latn_2;
 ";
 name = ccmp;
 },
@@ -257,6 +236,8 @@ automatic = 1;
 code = "sub one slash four by onequarter;
 sub one slash two by onehalf;
 sub three slash four by threequarters;
+sub one slash three by onethird;
+sub two slash three by twothirds;
 ";
 name = frac;
 },
@@ -264,6 +245,7 @@ name = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
 ";
 name = ordn;
 },
@@ -324,16 +306,16 @@ sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
 sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
 sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
 sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
-sub zero.osf by zero.lf;
-sub one.osf by one.lf;
-sub two.osf by two.lf;
-sub three.osf by three.lf;
-sub four.osf by four.lf;
-sub five.osf by five.lf;
-sub six.osf by six.lf;
-sub seven.osf by seven.lf;
-sub eight.osf by eight.lf;
-sub nine.osf by nine.lf;
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
 ";
 name = case;
 },
@@ -501,7 +483,6 @@ verticalStems = (
 28,
 53
 );
-weightValue = 128;
 xHeight = 760;
 }
 );
@@ -9694,14 +9675,16 @@ unicode = 0164;
 },
 {
 glyphname = Tcedilla;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 name = cedilla;
 }
 );
@@ -23784,11 +23767,12 @@ rightKerningGroup = one.osf;
 },
 {
 glyphname = two.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = two;
 transform = "{1, 0, 0, 1, -93, 0}";
 }
@@ -23802,11 +23786,12 @@ rightKerningGroup = two.osf;
 },
 {
 glyphname = three.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = three;
 transform = "{1, 0, 0, 1, -180, -312}";
 }
@@ -23943,11 +23928,12 @@ rightKerningGroup = four.osf;
 },
 {
 glyphname = five.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = five;
 transform = "{1, 0, 0, 1, -140, -309}";
 }
@@ -23961,11 +23947,12 @@ rightKerningGroup = five.osf;
 },
 {
 glyphname = six.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = six;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -23979,11 +23966,12 @@ rightKerningGroup = six.osf;
 },
 {
 glyphname = seven.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = seven;
 transform = "{1, 0, 0, 1, -129, -318}";
 }
@@ -23997,11 +23985,12 @@ rightKerningGroup = seven.osf;
 },
 {
 glyphname = eight.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = eight;
 transform = "{1, 0, 0, 1, -104, 0}";
 }
@@ -24015,11 +24004,12 @@ rightKerningGroup = eight.osf;
 },
 {
 glyphname = nine.osf;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = nine;
 transform = "{1, 0, 0, 1, -238, -310}";
 }
@@ -32096,7 +32086,7 @@ R = NoKerning;
 },
 {
 glyphname = cedillacomb;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
 {
 anchors = (
@@ -32111,6 +32101,7 @@ position = "{-77, -359}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -187, 0}";
 }
@@ -34389,12 +34380,10 @@ rightKerningGroup = lcstrokeshort_part.;
 );
 instances = (
 {
-interpolationWeight = 128;
 instanceInterpolations = {
 master01 = 1;
 };
 name = Regular;
-weightClass = Normal;
 }
 );
 kerning = {
@@ -35743,7 +35732,7 @@ fraction = {
 };
 };
 manufacturer = "Sorkin Type Co.";
-manufacturerURL = sorkintype.com;
+manufacturerURL = "http://sorkintype.com";
 unitsPerEm = 2048;
 userData = {
 UFO.lib = {
