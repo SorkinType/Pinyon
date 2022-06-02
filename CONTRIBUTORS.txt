@@ -9,7 +9,5 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Nicole Fally <nf@t-g-d.at>
-
-Eben Sorkin <sorkineben@gmail.com>
-
+Rosalie Wagner <mail@rosaliewagner.com>
+Emma Marichal <bonjour@emmamarichal.fr>
