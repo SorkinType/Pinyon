@@ -1,5 +1,8 @@
 {
 .appVersion = "3133";
+DisplayStrings = (
+"/space/nbspace"
+);
 classes = (
 {
 automatic = 1;
@@ -27842,11 +27845,11 @@ R = NoKerning;
 },
 {
 glyphname = nbspace;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2022-07-14 14:29:31 +0000";
 layers = (
 {
 layerId = master01;
-width = 303;
+width = 503;
 }
 );
 leftKerningGroup = nbspace;
