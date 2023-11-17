@@ -89,7 +89,7 @@ value = STC;
 date = "2022-05-10 04:29:33 +0000";
 designer = "Nicole Fally, Eben Sorkin";
 designerURL = "http://sorkintype.com";
-familyName = "Pinyon Script G";
+familyName = "Pinyon Script";
 featurePrefixes = (
 {
 automatic = 1;
@@ -39632,5 +39632,5 @@ width = 0;
 UFOFormat = 2;
 };
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 8;
 }
