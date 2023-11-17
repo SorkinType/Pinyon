@@ -1,5 +1,4 @@
 sources:
   - Pinyon.glyphs
-axisOrder:
-  - wght
 familyName: Pinyon
+buildVariable: false
