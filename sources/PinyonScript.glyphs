@@ -23006,9 +23006,19 @@ unicode = 1E75;
 },
 {
 glyphname = v;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2024-04-11 14:25:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{405, 0}";
+},
+{
+name = top;
+position = "{675, 760}";
+}
+);
 layerId = master01;
 paths = (
 {
@@ -23091,6 +23101,7 @@ name = v;
 },
 {
 name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 374, 0}";
 }
 );
 layerId = master01;
@@ -23103,7 +23114,7 @@ unicode = 1E7F;
 },
 {
 glyphname = vtilde;
-lastChange = "2023-10-28 18:55:47 +0000";
+lastChange = "2024-04-11 14:25:43 +0000";
 layers = (
 {
 components = (
@@ -23112,6 +23123,7 @@ name = v;
 },
 {
 name = tildecomb;
+transform = "{1, 0, 0, 1, 428, 0}";
 }
 );
 layerId = master01;
