@@ -1,5 +1,8 @@
 {
 .appVersion = "3251";
+DisplayStrings = (
+"L·L/space \012\012l·l\012\012L/periodcentered.loclCAT.case L\012l/periodcentered.loclCAT l/space"
+);
 classes = (
 {
 automatic = 1;
@@ -6404,7 +6407,7 @@ unicode = 1E34;
 },
 {
 glyphname = L;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2024-04-11 14:31:47 +0000";
 layers = (
 {
 anchors = (
@@ -16778,13 +16781,13 @@ unicode = 1E21;
 },
 {
 glyphname = h;
-lastChange = "2023-11-17 06:18:30 +0000";
+lastChange = "2024-04-11 14:27:51 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{454, 0}";
+position = "{223, 0}";
 },
 {
 name = center;
@@ -16964,7 +16967,7 @@ unicode = 0127;
 },
 {
 glyphname = hbrevebelow;
-lastChange = "2023-11-17 06:18:35 +0000";
+lastChange = "2024-04-11 14:27:51 +0000";
 layers = (
 {
 components = (
@@ -16973,7 +16976,7 @@ name = h;
 },
 {
 name = brevebelowcomb;
-transform = "{1, 0, 0, 1, 298, 0}";
+transform = "{1, 0, 0, 1, 67, 0}";
 }
 );
 layerId = master01;
@@ -17106,7 +17109,7 @@ name = h;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 423, 0}";
+transform = "{1, 0, 0, 1, 192, 0}";
 }
 );
 layerId = master01;
@@ -21093,7 +21096,7 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2023-11-17 04:51:04 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 anchors = (
@@ -21103,7 +21106,7 @@ position = "{31, 0}";
 },
 {
 name = top;
-position = "{624, 655}";
+position = "{594, 655}";
 }
 );
 layerId = master01;
@@ -21187,7 +21190,7 @@ KernOnName = r;
 },
 {
 glyphname = racute;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21196,7 +21199,7 @@ name = r;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 481, -105}";
+transform = "{1, 0, 0, 1, 451, -105}";
 }
 );
 layerId = master01;
@@ -21209,7 +21212,7 @@ unicode = 0155;
 },
 {
 glyphname = rcaron;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21218,7 +21221,7 @@ name = r;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 342, -105}";
+transform = "{1, 0, 0, 1, 312, -105}";
 }
 );
 layerId = master01;
@@ -21253,7 +21256,7 @@ unicode = 0157;
 },
 {
 glyphname = rdblgrave;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21262,7 +21265,7 @@ name = r;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 356, -105}";
+transform = "{1, 0, 0, 1, 326, -105}";
 }
 );
 layerId = master01;
@@ -21275,7 +21278,7 @@ unicode = 0211;
 },
 {
 glyphname = rdotaccent;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21284,7 +21287,7 @@ name = r;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 336, -105}";
+transform = "{1, 0, 0, 1, 306, -105}";
 }
 );
 layerId = master01;
@@ -21318,7 +21321,7 @@ unicode = 1E5B;
 },
 {
 glyphname = rdotbelowmacron;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21330,7 +21333,7 @@ name = dotbelowcomb;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 345, -105}";
+transform = "{1, 0, 0, 1, 315, -105}";
 }
 );
 layerId = master01;
@@ -21343,7 +21346,7 @@ unicode = 1E5D;
 },
 {
 glyphname = rinvertedbreve;
-lastChange = "2023-11-17 04:51:07 +0000";
+lastChange = "2024-04-11 14:29:25 +0000";
 layers = (
 {
 components = (
@@ -21352,7 +21355,7 @@ name = r;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 88, -105}";
+transform = "{1, 0, 0, 1, 58, -105}";
 }
 );
 layerId = master01;
@@ -21518,7 +21521,7 @@ unicode = 015B;
 },
 {
 glyphname = sacutedotaccent;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2024-04-11 14:28:29 +0000";
 layers = (
 {
 components = (
@@ -23006,13 +23009,13 @@ unicode = 1E75;
 },
 {
 glyphname = v;
-lastChange = "2024-04-11 14:25:43 +0000";
+lastChange = "2024-04-11 14:25:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{405, 0}";
+position = "{-25, 0}";
 },
 {
 name = top;
@@ -23092,7 +23095,7 @@ unicode = 0076;
 },
 {
 glyphname = vdotbelow;
-lastChange = "2023-10-28 18:55:45 +0000";
+lastChange = "2024-04-11 14:26:04 +0000";
 layers = (
 {
 components = (
@@ -23101,7 +23104,7 @@ name = v;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 374, 0}";
+transform = "{1, 0, 0, 1, -56, 0}";
 }
 );
 layerId = master01;
@@ -29875,7 +29878,7 @@ R = "spaced-off";
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2023-10-28 18:30:24 +0000";
+lastChange = "2024-04-11 14:32:08 +0000";
 layers = (
 {
 layerId = master01;
@@ -29883,18 +29886,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"210 441 OFFCURVE",
-"271 494 OFFCURVE",
-"271 551 CURVE SMOOTH",
-"271 595 OFFCURVE",
-"244 625 OFFCURVE",
-"199 625 CURVE SMOOTH",
-"134 625 OFFCURVE",
-"80 570 OFFCURVE",
-"80 515 CURVE SMOOTH",
-"80 471 OFFCURVE",
-"110 441 OFFCURVE",
-"151 441 CURVE SMOOTH {name = hr00;}"
+"270 531 OFFCURVE",
+"331 584 OFFCURVE",
+"331 641 CURVE SMOOTH",
+"331 685 OFFCURVE",
+"304 715 OFFCURVE",
+"259 715 CURVE SMOOTH",
+"194 715 OFFCURVE",
+"140 660 OFFCURVE",
+"140 605 CURVE SMOOTH",
+"140 561 OFFCURVE",
+"170 531 OFFCURVE",
+"211 531 CURVE SMOOTH {name = hr00;}"
 );
 }
 );
@@ -29904,7 +29907,7 @@ width = 294;
 },
 {
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2023-10-28 18:30:44 +0000";
+lastChange = "2024-04-11 14:31:45 +0000";
 layers = (
 {
 layerId = master01;
@@ -29912,18 +29915,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"210 670 OFFCURVE",
-"271 723 OFFCURVE",
-"271 780 CURVE SMOOTH",
-"271 824 OFFCURVE",
-"244 854 OFFCURVE",
-"199 854 CURVE SMOOTH",
-"134 854 OFFCURVE",
-"80 799 OFFCURVE",
-"80 744 CURVE SMOOTH",
-"80 700 OFFCURVE",
-"110 670 OFFCURVE",
-"151 670 CURVE SMOOTH {name = hr00;}"
+"210 320 OFFCURVE",
+"271 373 OFFCURVE",
+"271 430 CURVE SMOOTH",
+"271 474 OFFCURVE",
+"244 504 OFFCURVE",
+"199 504 CURVE SMOOTH",
+"134 504 OFFCURVE",
+"80 449 OFFCURVE",
+"80 394 CURVE SMOOTH",
+"80 350 OFFCURVE",
+"110 320 OFFCURVE",
+"151 320 CURVE SMOOTH {name = hr00;}"
 );
 }
 );
@@ -38261,6 +38264,7 @@ master01 = {
 "@MMK_R_schwa" = -50;
 "@MMK_R_t" = 70;
 "@MMK_R_z" = 50;
+periodcentered.loclCAT.case = -240;
 };
 "@MMK_L_M" = {
 "@MMK_R_asterisk" = 100;
@@ -39351,6 +39355,9 @@ fraction = 300;
 };
 fraction = {
 "@MMK_R_exclam" = -200;
+};
+periodcentered.loclCAT.case = {
+"@MMK_R_L" = -60;
 };
 };
 };
