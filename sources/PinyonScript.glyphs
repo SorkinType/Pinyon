@@ -1,12 +1,5 @@
 {
-.appVersion = "3227";
-DisplayStrings = (
-"/idotless í/cedillacomb/space",
-"/acutecomb ár",
-h,
-"/hcedilla",
-k
-);
+.appVersion = "3251";
 classes = (
 {
 automatic = 1;
@@ -74,11 +67,11 @@ value = "Pinyon Script is a Engish Roundhand connected script font";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 name = trademark;
@@ -270,17 +263,16 @@ sub N o period by numero;
 name = ordn;
 },
 {
-automatic = 1;
-code = "sub zero.osf by zero;
-sub one.osf by one;
-sub two.osf by two;
-sub three.osf by three;
-sub four.osf by four;
-sub five.osf by five;
-sub six.osf by six;
-sub seven.osf by seven;
-sub eight.osf by eight;
-sub nine.osf by nine;
+code = "sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
 ";
 name = lnum;
 },
@@ -28749,18 +28741,6 @@ rightKerningGroup = CR;
 unicode = 000D;
 },
 {
-glyphname = NULL;
-lastChange = "2022-05-18 03:32:05 +0000";
-layers = (
-{
-layerId = master01;
-width = 0;
-}
-);
-leftKerningGroup = NULL;
-rightKerningGroup = NULL;
-},
-{
 glyphname = .notdef;
 lastChange = "2023-11-17 04:33:22 +0000";
 layers = (
@@ -29809,25 +29789,6 @@ width = 690;
 leftKerningGroup = hyphen;
 rightKerningGroup = hyphen;
 unicode = 002D;
-userData = {
-KernOnSpecialSpacing = {
-L = hyphen;
-R = hyphen;
-};
-};
-},
-{
-glyphname = softhyphen;
-lastChange = "2022-05-18 03:32:05 +0000";
-layers = (
-{
-layerId = master01;
-width = 0;
-}
-);
-leftKerningGroup = hyphen;
-rightKerningGroup = hyphen;
-unicode = 00AD;
 userData = {
 KernOnSpecialSpacing = {
 L = hyphen;
@@ -35755,6 +35716,60 @@ R = NoKerning;
 };
 },
 {
+glyphname = commaaccentcomb.loclMAH;
+lastChange = "2023-10-28 17:45:11 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{270, 0}";
+},
+{
+name = bottom;
+position = "{119, -462}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"58 -397 OFFCURVE",
+"119 -373 OFFCURVE",
+"167 -334 CURVE SMOOTH",
+"241 -256 OFFCURVE",
+"260 -201 OFFCURVE",
+"260 -151 CURVE SMOOTH",
+"260 -110 OFFCURVE",
+"241 -88 OFFCURVE",
+"208 -88 CURVE SMOOTH",
+"161 -88 OFFCURVE",
+"130 -130 OFFCURVE",
+"130 -163 CURVE SMOOTH",
+"130 -175 OFFCURVE",
+"131 -188 OFFCURVE",
+"137 -208 CURVE SMOOTH {name = hr00;}",
+"141 -219 OFFCURVE",
+"145 -237 OFFCURVE",
+"145 -254 CURVE SMOOTH",
+"145 -293 OFFCURVE",
+"103 -351 OFFCURVE",
+"39 -372 CURVE",
+"24 -376 OFFCURVE",
+"20 -381 OFFCURVE",
+"20 -387 CURVE SMOOTH",
+"20 -396 OFFCURVE",
+"27 -397 OFFCURVE",
+"37 -397 CURVE SMOOTH"
+);
+}
+);
+width = 370;
+}
+);
+},
+{
 glyphname = cedillacomb;
 lastChange = "2022-05-26 11:31:11 +0000";
 layers = (
@@ -37493,60 +37508,6 @@ width = 460;
 );
 leftKerningGroup = dieresisbelowcomb.case;
 rightKerningGroup = dieresisbelowcomb.case;
-},
-{
-glyphname = commaaccentcomb.loclMAH;
-lastChange = "2023-10-28 17:45:11 +0000";
-layers = (
-{
-anchors = (
-{
-name = _bottom;
-position = "{270, 0}";
-},
-{
-name = bottom;
-position = "{119, -462}";
-}
-);
-layerId = master01;
-paths = (
-{
-closed = 1;
-nodes = (
-"58 -397 OFFCURVE",
-"119 -373 OFFCURVE",
-"167 -334 CURVE SMOOTH",
-"241 -256 OFFCURVE",
-"260 -201 OFFCURVE",
-"260 -151 CURVE SMOOTH",
-"260 -110 OFFCURVE",
-"241 -88 OFFCURVE",
-"208 -88 CURVE SMOOTH",
-"161 -88 OFFCURVE",
-"130 -130 OFFCURVE",
-"130 -163 CURVE SMOOTH",
-"130 -175 OFFCURVE",
-"131 -188 OFFCURVE",
-"137 -208 CURVE SMOOTH {name = hr00;}",
-"141 -219 OFFCURVE",
-"145 -237 OFFCURVE",
-"145 -254 CURVE SMOOTH",
-"145 -293 OFFCURVE",
-"103 -351 OFFCURVE",
-"39 -372 CURVE",
-"24 -376 OFFCURVE",
-"20 -381 OFFCURVE",
-"20 -387 CURVE SMOOTH",
-"20 -396 OFFCURVE",
-"27 -397 OFFCURVE",
-"37 -397 CURVE SMOOTH"
-);
-}
-);
-width = 370;
-}
-);
 },
 {
 glyphname = dieresis;
