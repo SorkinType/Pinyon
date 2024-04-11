@@ -1,0 +1,13 @@
+rule diffbrowsers
+  command = _diffbrowsers "$args"
+build out/Diffbrowsers: diffbrowsers
+  args = {'fonts_before': ['out/fonts_before/PinyonScript-Regular.ttf'], $
+      'fonts_after': ['PinyonScript-Regular.ttf'], 'diffbrowsers': True, $
+      'diffenator': False, 'out': 'out/Diffbrowsers', 'imgs': False, $
+      'styles': 'instances', 'characters': '.*', 'user_wordlist': None, $
+      'filter_styles': 'Regular', 'font_size': 20, 'pt_size': 20, $
+      'threshold': 0.9, 'precision': 28, 'no_words': False, 'no_tables': $
+      False, 'diffenator_template': $
+      '/Users/marichalemma/Google/env/lib/python3.9/site-packages/diffenator2/templates/diffenator.html', $
+      'command': 'diff', 'diffbrowsers_templates': [], 'kwargs': {}}
+
