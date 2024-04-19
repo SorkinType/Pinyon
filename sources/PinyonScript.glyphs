@@ -1,5 +1,5 @@
 {
-.appVersion = "3251";
+.appVersion = "3257";
 classes = (
 {
 automatic = 1;
@@ -3825,6 +3825,18 @@ rightKerningGroup = E;
 unicode = 1E1A;
 },
 {
+color = 3;
+glyphname = Eturned;
+lastChange = "2024-04-19 12:46:23 +0000";
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 018E;
+},
+{
 glyphname = Schwa;
 lastChange = "2023-11-17 03:59:17 +0000";
 layers = (
@@ -4880,6 +4892,18 @@ rightKerningGroup = H;
 unicode = 021E;
 },
 {
+color = 3;
+glyphname = Hcedilla;
+lastChange = "2024-04-19 12:48:03 +0000";
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 1E28;
+},
+{
 glyphname = Hcircumflex;
 lastChange = "2022-05-18 03:32:05 +0000";
 layers = (
@@ -5681,6 +5705,18 @@ width = 1333;
 leftKerningGroup = I;
 rightKerningGroup = I;
 unicode = 0128;
+},
+{
+color = 3;
+glyphname = Itildebelow;
+lastChange = "2024-04-19 12:48:45 +0000";
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 1E2C;
 },
 {
 glyphname = J;
@@ -11883,6 +11919,18 @@ rightKerningGroup = V;
 unicode = 1E7E;
 },
 {
+color = 3;
+glyphname = Vtilde;
+lastChange = "2024-04-19 12:49:33 +0000";
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 1E7C;
+},
+{
 glyphname = Vturned;
 lastChange = "2023-11-17 03:06:08 +0000";
 layers = (
@@ -14122,6 +14170,18 @@ rightKerningGroup = a;
 unicode = 1EA1;
 },
 {
+color = 3;
+glyphname = adotmacron;
+lastChange = "2024-04-19 12:47:28 +0000";
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 01E1;
+},
+{
 glyphname = agrave;
 lastChange = "2022-05-18 03:32:05 +0000";
 layers = (
@@ -15469,6 +15529,22 @@ width = 904;
 leftKerningGroup = d;
 rightKerningGroup = d;
 unicode = 1E0F;
+},
+{
+color = 3;
+glyphname = dtail;
+lastChange = "2024-04-19 12:49:51 +0000";
+layers = (
+{
+layerId = master01;
+width = 904;
+}
+);
+leftKerningGroup = D;
+leftMetricsKey = D;
+rightKerningGroup = D;
+rightMetricsKey = D;
+unicode = 0256;
 },
 {
 glyphname = dz;
@@ -24410,9 +24486,92 @@ rightKerningGroup = saltillo;
 unicode = A78C;
 },
 {
+glyphname = idotbelow.dotless;
+lastChange = "2023-11-17 03:23:12 +0000";
+layers = (
+{
+components = (
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, -75, 31}";
+},
+{
+name = idotless;
+}
+);
+layerId = master01;
+width = 454;
+}
+);
+},
+{
+glyphname = itildebelow.dotless;
+lastChange = "2023-11-17 04:30:09 +0000";
+layers = (
+{
+components = (
+{
+name = tildebelowcomb;
+transform = "{1, 0, 0, 1, -340, 31}";
+},
+{
+name = idotless;
+}
+);
+layerId = master01;
+width = 454;
+}
+);
+},
+{
 color = 0;
+glyphname = lcommaaccent.loclMAH;
+lastChange = "2023-10-28 18:48:01 +0000";
+layers = (
+{
+components = (
+{
+name = l;
+},
+{
+name = commaaccentcomb.loclMAH;
+transform = "{1, 0, 0, 1, -291, 0}";
+}
+);
+layerId = master01;
+width = 456;
+}
+);
+leftKerningGroup = l;
+rightKerningGroup = l;
+},
+{
+color = 0;
+glyphname = ncommaaccent.loclMAH;
+lastChange = "2023-10-28 18:48:05 +0000";
+layers = (
+{
+components = (
+{
+name = n;
+},
+{
+name = commaaccentcomb.loclMAH;
+transform = "{1, 0, 0, 1, 93, 0}";
+}
+);
+layerId = master01;
+width = 1042;
+}
+);
+leftKerningGroup = n;
+rightKerningGroup = n;
+},
+{
+color = 0;
+export = 0;
 glyphname = bhook.001;
-lastChange = "2023-10-28 18:48:17 +0000";
+lastChange = "2024-04-19 12:42:45 +0000";
 layers = (
 {
 anchors = (
@@ -24525,8 +24684,9 @@ rightKerningGroup = b;
 },
 {
 color = 0;
+export = 0;
 glyphname = dhook.001;
-lastChange = "2023-10-28 18:48:23 +0000";
+lastChange = "2024-04-19 12:42:45 +0000";
 layers = (
 {
 anchors = (
@@ -24655,88 +24815,6 @@ leftKerningGroup = d;
 leftMetricsKey = d;
 widthMetricsKey = d;
 rightKerningGroup = d;
-},
-{
-glyphname = idotbelow.dotless;
-lastChange = "2023-11-17 03:23:12 +0000";
-layers = (
-{
-components = (
-{
-name = dotbelowcomb;
-transform = "{1, 0, 0, 1, -75, 31}";
-},
-{
-name = idotless;
-}
-);
-layerId = master01;
-width = 454;
-}
-);
-},
-{
-glyphname = itildebelow.dotless;
-lastChange = "2023-11-17 04:30:09 +0000";
-layers = (
-{
-components = (
-{
-name = tildebelowcomb;
-transform = "{1, 0, 0, 1, -340, 31}";
-},
-{
-name = idotless;
-}
-);
-layerId = master01;
-width = 454;
-}
-);
-},
-{
-color = 0;
-glyphname = lcommaaccent.loclMAH;
-lastChange = "2023-10-28 18:48:01 +0000";
-layers = (
-{
-components = (
-{
-name = l;
-},
-{
-name = commaaccentcomb.loclMAH;
-transform = "{1, 0, 0, 1, -291, 0}";
-}
-);
-layerId = master01;
-width = 456;
-}
-);
-leftKerningGroup = l;
-rightKerningGroup = l;
-},
-{
-color = 0;
-glyphname = ncommaaccent.loclMAH;
-lastChange = "2023-10-28 18:48:05 +0000";
-layers = (
-{
-components = (
-{
-name = n;
-},
-{
-name = commaaccentcomb.loclMAH;
-transform = "{1, 0, 0, 1, 93, 0}";
-}
-);
-layerId = master01;
-width = 1042;
-}
-);
-leftKerningGroup = n;
-rightKerningGroup = n;
 },
 {
 glyphname = f_f;
@@ -37965,7 +38043,7 @@ unicode = 02DB;
 },
 {
 glyphname = lcstrokeshort_part.;
-lastChange = "2022-05-18 03:32:05 +0000";
+lastChange = "2024-04-19 12:49:01 +0000";
 layers = (
 {
 anchors = (
