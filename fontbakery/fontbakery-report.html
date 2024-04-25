@@ -272,17 +272,17 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>1</td>
-        <td>6</td>
+        <td>0</td>
+        <td>8</td>
         <td>116</td>
         <td>6</td>
-        <td>120</td>
+        <td>119</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
         <td>0%</td>
-        <td>2%</td>
+        <td>3%</td>
         <td>47%</td>
         <td>2%</td>
         <td>48%</td>
@@ -319,7 +319,7 @@ immediately.
             
                 <h2>Universal Profile Checks</h2>
 <span class='section__emoji'>
-    🔥⚠️⏩⏩⏩⏩⏩⏩ℹ️
+    ⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️
 </span>
 
     
@@ -351,7 +351,7 @@ immediately.
     
         <details>
             <summary>
-                🔥
+                ⚠️
                 PinyonScript-Regular.ttf
                 
             </summary>
@@ -607,6 +607,8 @@ immediately.
 - Glyph name: uni0189	Contours detected: 3	Expected: 2
 
 - Glyph name: uni018A	Contours detected: 3	Expected: 2
+
+- Glyph name: uni018E	Contours detected: 4	Expected: 1
 
 - Glyph name: uni0198	Contours detected: 3	Expected: 1
 
@@ -1148,6 +1150,8 @@ immediately.
 
 - Glyph name: uni018A	Contours detected: 3	Expected: 2
 
+- Glyph name: uni018E	Contours detected: 4	Expected: 1
+
 - Glyph name: uni0198	Contours detected: 3	Expected: 1
 
 - Glyph name: uni0199	Contours detected: 2	Expected: 1
@@ -1421,28 +1425,6 @@ immediately.
                             </span>
                         </li>
                 
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: uni018E	Expected: 1
-
-- Glyph name: uni01E1	Expected: 4
-
-- Glyph name: uni018E	Expected: 1
-
-- Glyph name: uni01E1	Expected: 4
-</code></pre>
-
-                            
-                             [code: no-contour]
-                            
-                            </span>
-                        </li>
-                
                 </ul>
             </div>
         </details>
@@ -1554,6 +1536,55 @@ divide</p>
 
     
 
+    
+
+    
+        <h3>
+    
+    Check font contains no unreachable glyphs
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                ⚠️
+                PinyonScript-Regular.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni0253.001
+
+- uni0257.001
+</code></pre>
+
+                            
+                             [code: unreachable-glyphs]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
     
 
     
@@ -1833,6 +1864,8 @@ divide</p>
 
 * uni1E26 (U+1E26): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652
 
+* uni1E28 (U+1E28): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652
+
 * uni1E2A (U+1E2A): B&lt;&lt;1073.0,843.5&gt;-&lt;1179.0,965.0&gt;-&lt;1241.0,1029.0&gt;&gt;/B&lt;&lt;1241.0,1029.0&gt;-&lt;1141.0,967.0&gt;-&lt;1073.5,943.5&gt;&gt; = 14.110467624904652
 
 * uni1E30 (U+1E30): B&lt;&lt;1090.0,816.0&gt;-&lt;1234.0,959.0&gt;-&lt;1403.0,1115.0&gt;&gt;/B&lt;&lt;1403.0,1115.0&gt;-&lt;1309.0,1052.0&gt;-&lt;1226.0,1017.5&gt;&gt; = 8.878891880444378
@@ -1884,6 +1917,10 @@ divide</p>
 * uni1E79 (U+1E79): B&lt;&lt;413.5,158.0&gt;-&lt;425.0,197.0&gt;-&lt;453.0,246.0&gt;&gt;/B&lt;&lt;453.0,246.0&gt;-&lt;328.0,111.0&gt;-&lt;229.0,51.0&gt;&gt; = 13.052520541291958
 
 * uni1E7B (U+1E7B): B&lt;&lt;413.5,158.0&gt;-&lt;425.0,197.0&gt;-&lt;453.0,246.0&gt;&gt;/B&lt;&lt;453.0,246.0&gt;-&lt;328.0,111.0&gt;-&lt;229.0,51.0&gt;&gt; = 13.052520541291958
+
+* uni1E7C (U+1E7C): B&lt;&lt;391.0,281.0&gt;-&lt;307.0,192.0&gt;-&lt;212.0,102.0&gt;&gt;/B&lt;&lt;212.0,102.0&gt;-&lt;329.0,181.0&gt;-&lt;479.0,288.5&gt;&gt; = 9.42408253883365
+
+* uni1E7C (U+1E7C): B&lt;&lt;655.5,855.5&gt;-&lt;756.0,992.0&gt;-&lt;837.0,1081.0&gt;&gt;/B&lt;&lt;837.0,1081.0&gt;-&lt;746.0,1017.0&gt;-&lt;663.5,979.5&gt;&gt; = 12.575690410206258
 
 * uni1E7E (U+1E7E): B&lt;&lt;391.0,281.0&gt;-&lt;307.0,192.0&gt;-&lt;212.0,102.0&gt;&gt;/B&lt;&lt;212.0,102.0&gt;-&lt;329.0,181.0&gt;-&lt;479.0,288.5&gt;&gt; = 9.42408253883365
 
@@ -2154,14 +2191,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, syriac, canadian-aboriginal, math, tai-le, tifinagh, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, canadian-aboriginal, tai-le, math, tifinagh, coptic, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -2176,8 +2213,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, caucasian-albanian, tifinagh, gothic</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, tifinagh, syriac</li>
 <li>U+2000 EN QUAD: not included in any glyphset definition</li>
 <li>U+2001 EM QUAD: not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
@@ -2187,16 +2224,16 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: mongolian, pahawh-hmong, modi, malayalam, bhaiksuki, chakma, tagalog, zanabazar-square, tagbanwa, khmer, arabic, gurmukhi, sinhala, tai-le, khojki, tifinagh, tirhuta, mahajani, bengali, javanese, duployan, batak, gujarati, hanunoo, avestan, newa, limbu, manichaean, cham, buginese, nko, syloti-nagri, rejang, sundanese, tai-tham, thai, myanmar, brahmi, sogdian, kharoshthi, lepcha, telugu, kaithi, dogra, balinese, tai-viet, thaana, lao, warang-citi, psalter-pahlavi, saurashtra, sharada, siddham, meetei-mayek, devanagari, tamil, kayah-li, khudawadi, old-hungarian, phags-pa, hebrew, syriac, hanifi-rohingya, masaram-gondi, buhid, new-tai-lue, takri, tibetan, mandaic, kannada, oriya, yi, gunjala-gondi, grantha</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, syloti-nagri, yi</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: malayalam, khojki, thai, yi, buginese, lao, bhaiksuki, kharoshthi, kannada, khmer, zanabazar-square, lepcha, telugu, mandaic, gujarati, tifinagh, dogra, masaram-gondi, new-tai-lue, newa, cham, saurashtra, phags-pa, arabic, chakma, javanese, duployan, sundanese, syloti-nagri, tamil, nko, tai-le, gunjala-gondi, buhid, takri, pahawh-hmong, grantha, tai-viet, avestan, gurmukhi, kaithi, khudawadi, mongolian, old-hungarian, sogdian, balinese, myanmar, tirhuta, limbu, oriya, warang-citi, hanunoo, hebrew, sharada, meetei-mayek, manichaean, tagbanwa, tagalog, rejang, hanifi-rohingya, bengali, sinhala, psalter-pahlavi, tai-tham, modi, batak, brahmi, mahajani, thaana, tibetan, devanagari, siddham, kayah-li, syriac</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
 <li>U+212E ESTIMATED SYMBOL: not included in any glyphset definition</li>
 <li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
 <li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mongolian, modi, khmer, gurmukhi, tai-le, mende-kikakui, duployan, tai-tham, buginese, myanmar, sogdian, coptic, kharoshthi, lepcha, telugu, kaithi, osage, miao, warang-citi, sharada, devanagari, soyombo, phags-pa, syriac, masaram-gondi, buhid, saurashtra, grantha, sinhala, caucasian-albanian, tifinagh, tirhuta, mahajani, bengali, batak, nko, newa, thai, sundanese, dogra, balinese, tai-viet, lao, meetei-mayek, hebrew, hanifi-rohingya, takri, gunjala-gondi, adlam, bhaiksuki, canadian-aboriginal, symbols, bassa-vah, javanese, elbasan, syloti-nagri, rejang, thaana, kayah-li, khudawadi, wancho, oriya, pahawh-hmong, tagalog, malayalam, chakma, zanabazar-square, ahom, tagbanwa, armenian, khojki, gujarati, hanunoo, limbu, manichaean, cham, marchen, brahmi, math, psalter-pahlavi, siddham, tamil, music, old-permic, new-tai-lue, tibetan, mandaic, kannada, yi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: zanabazar-square, miao, music, duployan, takri, tirhuta, mongolian, soyombo, hebrew, tagbanwa, rejang, batak, kayah-li, yi, kannada, lepcha, saurashtra, phags-pa, caucasian-albanian, syloti-nagri, tamil, sundanese, limbu, armenian, meetei-mayek, manichaean, coptic, bengali, psalter-pahlavi, elbasan, modi, mahajani, tibetan, syriac, malayalam, thai, lao, bhaiksuki, kharoshthi, canadian-aboriginal, khmer, mandaic, gujarati, chakma, thaana, math, gunjala-gondi, gurmukhi, kaithi, sogdian, symbols, balinese, myanmar, bassa-vah, tagalog, osage, sinhala, tai-tham, brahmi, adlam, wancho, devanagari, khojki, buginese, telugu, tifinagh, dogra, masaram-gondi, new-tai-lue, newa, cham, javanese, marchen, nko, tai-le, buhid, pahawh-hmong, grantha, tai-viet, khudawadi, old-permic, oriya, warang-citi, mende-kikakui, hanunoo, sharada, hanifi-rohingya, ahom, siddham</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
