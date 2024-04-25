@@ -1,15 +1,6 @@
 {
-.appVersion = "3303";
+.appVersion = "3257";
 .formatVersion = 3;
-DisplayStrings = (
-"ƒ",
-"£",
-"€",
-V,
-"Ǝon",
-"ɖ",
-"̄/macroncomb_acutecomb ḗ"
-);
 axes = (
 {
 name = Weight;
